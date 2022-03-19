@@ -1,2 +1,2 @@
 # odom_from_tf
-This repository contains code which listens to tf tree and publish odometry message as a topic
+This repository contains code which listens to tf tree and publish odometry message as a topic (useful for packages like cartographer ros).
