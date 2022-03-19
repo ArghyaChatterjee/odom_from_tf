@@ -1,5 +1,8 @@
 # odom_from_tf
-This repository contains code which listens to tf tree and publish odometry message as a topic (useful for packages like cartographer ros). This node will listen to the tf tree (parent frame `odom` and child frame `base_link`) published by any node and publish the transform between parent frame `odom` and child frame `base_link` as `nav_msgs::Odometry` message in `/odom` topic at a rate of 200 hz.
+This repository contains code which listens to tf tree and publish odometry message as a topic (useful for packages like cartographer ros). 
+
+## Inner Working
+This node will listen to the tf tree (parent frame `odom` and child frame `base_link`) published by any node and publish the transform between parent frame `odom` and child frame `base_link` as `nav_msgs::Odometry` message in `/odom` topic at a rate of 200 hz.
 
 ## Start the Odom from TF package
 
