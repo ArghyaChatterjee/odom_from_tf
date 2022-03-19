@@ -1,9 +1,5 @@
 # odom_from_tf
-This repository contains code which listens to tf tree and publish odometry message as a topic (useful for packages like cartographer ros).
-
-# Odometry Generation From Transform Tree
-
-This node will listen to tf tree of cartographer_ros node and publish the transform message to a topic as `/odom` topic.
+This repository contains code which listens to tf tree and publish odometry message as a topic (useful for packages like cartographer ros). This node will listen to tf tree of cartographer_ros node and publish the transform message to a topic as `/odom` topic.
 
 ## Start the Odom from TF package
 
